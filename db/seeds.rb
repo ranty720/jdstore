@@ -12,3 +12,6 @@ u.password = "123456"
 u.password_confirmation = "123456"
 u.is_admin = true
 u.save
+
+Product.create!(title:"Aron",quantity:100,price:5,
+image: open("http://ooyxi6cuo.bkt.clouddn.com/11484053384_.pic_hd%E5%89%AF%E6%9C%AC.jpg"))
