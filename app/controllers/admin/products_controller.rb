@@ -5,6 +5,9 @@ class Admin::ProductsController < ApplicationController
   def index
     @products = Product.all
   end
+  def show
+    @photos = @product.photos.all
+  end
   def new
     @product = Product.new
     @photo = @product.photos.build
