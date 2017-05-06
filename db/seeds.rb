@@ -15,3 +15,9 @@ u.save
 
 Product.create!(title:"Aron", description:"niu",quantity:100,price:5,
 image: open("http://ooyxi6cuo.bkt.clouddn.com/Snip20170208_1.png"))
+
+#p1 = Product.create([title:products[0][:title],description:products[0][:description],body:products[0][:body],category:products[0][:category],quantity:rand(3..9) * 100 ,price:rand(1..5)])
+
+
+#Photo.create!(product_id:1,avatar: open(photos[0]))
+#Photo.create!(product_id:1,avatar: open(photos[1]))
